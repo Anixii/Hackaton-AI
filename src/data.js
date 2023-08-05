@@ -13,7 +13,8 @@ import peach from './assets/peach.jpg'
 import bananaAudio from './audio/banana.mp3'
 import pearAudio from './audio/Pears.mp3'
 import peachAudio from './audio/peach.mp3'
-import orangeAudio from './audio/orange.mp3'
+import orangeAudio from './audio/orange.mp3' 
+import appleAudio from './apple.mp4'
 export const data = { 
     animals: [
         {type: 'Dog', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
@@ -25,8 +26,8 @@ export const data = {
         {type: 'Callibrie', action: 'Standing on paws',picture: bird,color: 'White'},       
     ],
     fruits:[ 
-      {type: 'Apple', action:'tasty apple', picture:apple, color:'red', audio:bananaAudio},
-      {type: 'pear', action:'tasty pear', picture:pear, color:'green', audio:peachAudio},
+      {type: 'Apple', action:'tasty apple', picture:apple, color:'red', audio:appleAudio},
+      {type: 'pear', action:'tasty pear', picture:pear, color:'green', audio:pearAudio},
       {type: 'Banana', action:'tasty banana', picture:Banana, color:'yellow', audio:bananaAudio},
       {type: 'Orange', action:'tasty orange', picture:orange, color:'orange', audio:orangeAudio},
       {type: 'Peach', action:'tasty peach', picture:peach, color:'red,orabge', audio: peachAudio},
