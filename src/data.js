@@ -1,14 +1,21 @@
 import dogWhite from './assets/22222222222222.png' 
+import rabbit from './assets/photo_2023-08-05_14-07-12 (3).jpg'
+import cat from './assets/photo_2023-08-05_14-07-11 (2).jpg'
+import gerouph from './assets/photo_2023-08-05_14-07-11.jpg'
+import cow from './assets/photo_2023-08-05_14-07-12 (2).jpg'
+import bird from './assets/photo_2023-08-05_14-07-13.jpg'
+import chichken from './assets/photo_2023-08-05_14-07-12.jpg'
 export const data = { 
     animals: [
         {type: 'Dog', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'Cat', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'LO', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'AS', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'Dogasd', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'asdDog', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-        {type: 'AAAADosadg', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
-    ]
+        {type: 'Cat', action: 'Standing on paws',picture: cat,color: 'White'},       
+        {type: 'Rabbit', action: 'Standing on paws',picture: rabbit,color: 'White'},       
+        {type: 'Giraffe', action: 'Standing on paws',picture: gerouph,color: 'yellow and brown'},       
+        {type: 'Bull', action: 'Standing on paws',picture: cow,color: 'White'},       
+        {type: 'Rooster', action: 'Standing on paws',picture: chichken,color: 'White'},       
+        {type: 'Callibrie', action: 'Standing on paws',picture: bird,color: 'White'},       
+    ],
+    
 } 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
