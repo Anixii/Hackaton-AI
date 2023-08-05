@@ -1,4 +1,3 @@
-import s from "./Animals.module.css"
 import { useLocation } from "react-router-dom";
 import { getRandomObjectsFromArray } from "../../data";
 const Animals = () => { 
