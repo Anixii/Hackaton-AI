@@ -1,0 +1,82 @@
+.main{
+    background-image: url('../../assets/photo_2023-08-05_10-41-23.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.imgage_car{
+    position: absolute;
+    height: 250px;
+    top: 55%;
+    left: 64%;
+}
+.imgage_dog{
+    position: absolute;
+    height: 150px;
+    top: 15%;
+    left: 12%;
+
+}
+.imgage_dog:active{
+}
+.imgage_dog:hover, .imgage_car:hover{
+    animation: bounce 2s infinite;
+    filter: drop-shadow(0 0 15px rgb(232, 28, 28));
+    transform: scale(1.1);
+}
+@keyframes bounce {
+    0%, 100% {
+        bottom: 0; /* The starting and ending position (bottom of the container) */
+        transform: translateY(0); /* No vertical translation at the start and end */
+    }
+    50% {
+        bottom: 200px; /* The highest point of the bounce (200px above the bottom) */
+        transform: translateY(-20px); /* Move the ball 200px up */
+    }
+}
+@keyframes animationThing {
+    from{
+        transform: translate(50px);
+    }
+    to{
+        transform: translate(0);
+    }
+    /* 0%{
+      margin-top:20px ;
+    }
+    10%{
+      margin-top: 40px;
+    }
+    20%{
+      margin-top: 40px;
+    }
+    30%{
+      margin-top: 50px;
+    }
+    40%{
+      margin-top: 60px;
+    }
+    50%{
+      margin-top: 70px;
+    }
+    60%{
+      margin-top: 60px;
+    }
+    70%{
+      margin-top: 50px;
+    }
+    80%{
+      margin-top: 40px;
+    }
+    90%{
+      margin-top: 20px;
+    }
+    95%{
+      margin-top: 10px;
+    }
+    100%{
+      margin-top: 0;
+    } */
+}
