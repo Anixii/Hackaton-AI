@@ -4,17 +4,16 @@ import { data } from "../../data"
 const Home = () => {
     return (
         <div className={s.main}>
-            <div className={`${s.type__class} ${s.vegetables}`}>
-                <Link to={'/test'}  className={s.title__type_class}>Vegetables</Link>
-            </div>
-            <div className={s.type__class}>
-                <Link to={'/test'} className={s.title__type_class}>Fruits</Link>
-            </div>
-            <div className={s.type__class}>
-                <Link state={data.animals} to={'/test'} className={s.title__type_class}>Animals</Link>
-            </div>
+            <Link to={"/test"} className={`${s.type__class} ${s.vegetables}`}>
+                <p className={s.title__type_class}>Vegetables</p>
+            </Link>
+            <Link to={"/test"} className={`${s.type__class} ${s.fruits}`}>
+                <p className={s.title__type_class}>Fruits</p>
+            </Link>
+            <Link state={data.animals} to={"/test"} className={`${s.type__class} ${s.animals}`}>
+                <p className={s.title__type_class}>Animals</p>
+            </Link>
         </div>
     )
 }
-
 export default Home
