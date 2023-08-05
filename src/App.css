@@ -1,0 +1,24 @@
+.main{ 
+  background-image: url('./assets/photo_2023-08-05_10-41-23.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100vh;
+  position: relative;
+}
+.imgage_car{ 
+  position: absolute;
+  height: 250px;
+  top: 55%;
+  left: 64%;
+}
+.imgage_dog{ 
+  position: absolute; 
+  height: 150px; 
+  top: 15%;
+  left: 12%;
+}
+.imgage_dog:hover, .imgage_car:hover{ 
+  filter: drop-shadow(0 0 15px rgb(232, 28, 28));
+  transform: scale(1.1);
+}
