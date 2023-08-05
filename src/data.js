@@ -4,7 +4,16 @@ import cat from './assets/photo_2023-08-05_14-07-11 (2).jpg'
 import gerouph from './assets/photo_2023-08-05_14-07-11.jpg'
 import cow from './assets/photo_2023-08-05_14-07-12 (2).jpg'
 import bird from './assets/photo_2023-08-05_14-07-13.jpg'
-import chichken from './assets/photo_2023-08-05_14-07-12.jpg'
+import chichken from './assets/photo_2023-08-05_14-07-12.jpg' 
+import apple from './assets/apple.jpg' 
+import pear from './assets/grusha.jpg' 
+import Banana from './assets/banana.jpg'
+import orange from './assets/orange.jpg'
+import peach from './assets/peach.jpg'
+import bananaAudio from './audio/banana.mp3'
+import pearAudio from './audio/Pears.mp3'
+import peachAudio from './audio/peach.mp3'
+import orangeAudio from './audio/orange.mp3'
 export const data = { 
     animals: [
         {type: 'Dog', action: 'Standing on paws',picture: dogWhite,color: 'White'},       
@@ -15,6 +24,13 @@ export const data = {
         {type: 'Rooster', action: 'Standing on paws',picture: chichken,color: 'White'},       
         {type: 'Callibrie', action: 'Standing on paws',picture: bird,color: 'White'},       
     ],
+    fruits:[ 
+      {type: 'Apple', action:'tasty apple', picture:apple, color:'red', audio:bananaAudio},
+      {type: 'pear', action:'tasty pear', picture:pear, color:'green', audio:peachAudio},
+      {type: 'Banana', action:'tasty banana', picture:Banana, color:'yellow', audio:bananaAudio},
+      {type: 'Orange', action:'tasty orange', picture:orange, color:'orange', audio:orangeAudio},
+      {type: 'Peach', action:'tasty peach', picture:peach, color:'red,orabge', audio: peachAudio},
+    ]
     
 } 
 function shuffleArray(array) {

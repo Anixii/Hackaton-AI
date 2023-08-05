@@ -40,11 +40,12 @@
   top: 14%; 
   left: 74%;
 }
-.imgages__0:hover,.imgages__2:hover,.imgages__1:hover,.imgages__3:hover{ 
+.animated,.imgages__0:hover,.imgages__2:hover,.imgages__1:hover,.imgages__3:hover{ 
   animation: bounce 2s infinite;
   filter: drop-shadow(0 0 25px rgb(28, 150, 232));
   transform: scale(1.1);
-}
+} 
+
 @keyframes bounce {
   0%, 100% {
     bottom: 0; /* The starting and ending position (bottom of the container) */

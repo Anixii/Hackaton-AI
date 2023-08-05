@@ -7,7 +7,7 @@ const Home = () => {
             <Link to={"/test"} className={`${s.type__class} ${s.vegetables}`}>
                 <p className={s.title__type_class}>Vegetables</p>
             </Link>
-            <Link to={"/test"} className={`${s.type__class} ${s.fruits}`}>
+            <Link to={"/test"}  state={data.fruits} className={`${s.type__class} ${s.fruits}`}>
                 <p className={s.title__type_class}>Fruits</p>
             </Link>
             <Link state={data.animals} to={"/test"} className={`${s.type__class} ${s.animals}`}>
