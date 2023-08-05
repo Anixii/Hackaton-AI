@@ -23,7 +23,7 @@
 }
 .imgage_dog:hover, .imgage_car:hover{ 
   animation: bounce 2s infinite;
-  filter: drop-shadow(0 0 15px rgb(232, 28, 28));
+  filter: drop-shadow(0 0 15px rgb(28, 150, 232));
   transform: scale(1.1);
 }
 @keyframes bounce {
